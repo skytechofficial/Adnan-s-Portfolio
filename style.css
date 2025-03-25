@@ -1,0 +1,40 @@
+@import "tailwindcss";
+/* *{
+    font-family: "Freestyle Script";
+} */
+@media (max-width:952px) {
+    .links{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
+@media (max-width:500px) {
+    nav{
+        padding: 16px;
+    }
+    .nav-heading{
+        gap: 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro-para{
+        padding: 0;
+    }
+}
+@media (max-height:750px) {
+    .intro-para{
+        padding: 0;
+    }
+}
+
+@media (max-width:400px) {
+    .home{
+        margin-top: 60px;
+    }
+    .designing{
+        width: 300px;
+    }
+}
